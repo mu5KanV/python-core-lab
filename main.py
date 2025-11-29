@@ -16,7 +16,7 @@ def main():
         print("  - Type 'Find' to find a book by ISBN")
         print("  - Type 'Quit' to exit")
 
-        command = input("Enter your command: ").strip().title()
+        command = input("\nEnter your command: ").strip().title()
 
         if command == "Add":
             # Handles Adding a Book

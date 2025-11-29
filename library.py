@@ -10,7 +10,7 @@ class Library:
             raise ValueError(f"Error: Book with ISBN {book.isbn} already exists!")
         else:
             self.books[book.isbn]= book
-            print(f"Success: Added {book.title} to the library!")
+            print(f"Success: Added '{book.title}' to the library!")
         
     def find_book(self,isbn):
         # This method finds an existing book in the library
